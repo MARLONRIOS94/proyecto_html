@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <div>
+        <h3>Gracias por contactarnos</h3>
+        <h2>Por favor diligencie este formulario</h2>
+    </div>
+
+    <form class="formulario">
+        
+        
+        <div> 
+            <label for="name">Nombres</label>
+            <input  type="text"  name="nombre" id="name" required>  
+        </div>
+
+        <br>
+
+        <div> 
+            <label for="surname">Apellido</label>
+            <input type="text"  name="apellido" id="surname" required>  
+        </div>
+
+        <br>
+        
+        <div> 
+            <label for="address">Dirección</label>
+            <input type="text"  name="direccion" id="address" required>  
+        </div>
+
+        <br>
+
+        <div> 
+            <label for="phone">Telefono</label>
+            <input type="number"  name="telefono" id="phone" required>  
+        </div>
+
+        <br>
+
+        <div>
+            <label for="gender">Genero</label>
+            <input type="radio" name="gender" value="masculino"> Masculino
+            <input type="radio" name="gender" value="femenino"> Femenino
+        </div>
+
+        <br>
+
+        <div> 
+            <label for="country">Pais</label>
+            <select name="country">
+                <option selected>Seleccione</option>
+                <option value="brasil">Colombia</option>
+                <option value="españa">Inglaterra</option>
+                <option value="italia">Italia</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div> 
+            <label for="department">Departamento</label>
+            <select name="department">
+                <option selected>Seleccione</option>
+                <option value="tolima">Tolima</option>
+                <option value="antioquia">Antioquia</option>
+                <option value="cundinamarca">Cundinamarca</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div> 
+            <label for="city">Ciudad</label>
+            <select name="city">
+                <option selected>Seleccione</option>
+                <option value="ibague">Ibagué</option>
+                <option value="medellin">Medellín</option>
+                <option value="bogota">Bogota D.C.</option>
+            </select>
+        </div>
+
+        <br>
+
+
+        
+        <div> 
+            <button type="submit" value="guardar">Guardar</button>
+        </div>
+
+    </form>
+</body>
+</html>
